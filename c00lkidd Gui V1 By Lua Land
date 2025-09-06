@@ -114,37 +114,29 @@ local function loadPage(page)
 		end)
 	elseif page == 2 then
 		createButton("666", 0, function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/4362c4da927a85ab8fbe57fe69ab51c4/raw/3b2846e253115fcfc86b5f398e7bb02019ab92a8/666Servergotfiredlol"))()
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/4362c4da927a85ab8fbe57fe69ab51c4/raw/3b2846e253115fcfc86b5f398e7bb02019ab92a8/666Servergotfiredlol"))()
 		end)
 		createButton("Draw", 50, function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/41392308e475849d10ddaed89de6cf82/raw/26307cee931f95d3477501399915aec2dc3dc6e7/Drawing%2520LandsUHJQ"))()
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/41392308e475849d10ddaed89de6cf82/raw/26307cee931f95d3477501399915aec2dc3dc6e7/Drawing%2520LandsUHJQ"))()
 		end)
 		createButton("iOrb", 100, function()
-
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-IOrb-thingy-42143"))()
+			loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-IOrb-thingy-42143"))()
 		end)
 		createButton("Trail", 150, function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land"))()
 		end)
 		createButton("Hint", 200, function()
-
-loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/29fccef769a221b98fd05ebf0bfb4b64/raw/a0b962467444f9e4802c5b573947dae3d78a53d6/HintThec00lOne"))()
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/29fccef769a221b98fd05ebf0bfb4b64/raw/a0b962467444f9e4802c5b573947dae3d78a53d6/HintThec00lOne"))()
 		end)
 		createButton("Forcefield", 250, function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Forcefield"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Forcefield"))()
 		end)
 	elseif page == 3 then
-		createButton("Console", 0, functiion()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/DevConsoleScript/refs/heads/main/DevConsole.xyz"))()
+		createButton("Console", 0, function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/DevConsoleScript/refs/heads/main/DevConsole.xyz"))()
 		end)
 		createButton("Billboard", 50, function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/7FeCFurr"))()
+			loadstring(game:HttpGet("https://pastebin.com/raw/7FeCFurr"))()
 		end)
 	elseif page == 4 then
 		createButton("Script D", 0, function()
