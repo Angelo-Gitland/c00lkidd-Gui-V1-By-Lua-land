@@ -1,10 +1,8 @@
--- Create GUI
 local main = Instance.new("ScreenGui")
 main.Name = "main"
 main.ResetOnSpawn = false
 main.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
--- Main Frame
 local frame = Instance.new("Frame", main)
 frame.Name = "frame"
 frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -126,6 +124,10 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/41392
 		createButton("iOrb", 100, function()
 
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-IOrb-thingy-42143"))()
+		end)
+		createButton("Trail", 150, function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land"))()
 		end)
 	elseif page == 3 then
 		createButton("Script C", 0, function()
