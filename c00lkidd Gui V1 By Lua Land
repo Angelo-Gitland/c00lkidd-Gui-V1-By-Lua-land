@@ -55,26 +55,26 @@ navFrame.Position = UDim2.new(0, 0, 1, -50)
 navFrame.Size = UDim2.new(1, 0, 0, 50)
 
 local prevBtn = Instance.new("TextButton", navFrame)
-prevBtn.Name = "Previous"
+prevBtn.Name = "<"
 prevBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 prevBtn.BorderColor3 = Color3.fromRGB(255, 0, 0)
 prevBtn.BorderSizePixel = 3
 prevBtn.Position = UDim2.new(0, 10, 0, 5)
 prevBtn.Size = UDim2.new(0, 130, 0, 40)
 prevBtn.Font = Enum.Font.SourceSans
-prevBtn.Text = "Previous"
+prevBtn.Text = "<"
 prevBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 prevBtn.TextSize = 20
 
 local nextBtn = Instance.new("TextButton", navFrame)
-nextBtn.Name = "Next"
+nextBtn.Name = ">"
 nextBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 nextBtn.BorderColor3 = Color3.fromRGB(255, 0, 0)
 nextBtn.BorderSizePixel = 3
 nextBtn.Position = UDim2.new(0, 160, 0, 5)
 nextBtn.Size = UDim2.new(0, 130, 0, 40)
 nextBtn.Font = Enum.Font.SourceSans
-nextBtn.Text = "Next"
+nextBtn.Text = ">"
 nextBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 nextBtn.TextSize = 20
 
