@@ -129,6 +129,10 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-IOrb-thingy
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Universal-Trail-Lua-Land/refs/heads/main/Universal%20Trail%20Lua%20land"))()
 		end)
+		createButton("Hint", 200, function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/29fccef769a221b98fd05ebf0bfb4b64/raw/a0b962467444f9e4802c5b573947dae3d78a53d6/HintThec00lOne"))()
+		end)
 	elseif page == 3 then
 		createButton("Script C", 0, function()
 			print("Page 3 - Script C")
