@@ -171,7 +171,7 @@ local function loadPage(page)
 		end)
 	elseif page == 5 then
 		createButton("Executor", 0, function()
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/1770a7b82735bc8bf0cd3a0e3c2c42db/raw/7f8e92fc68776316f053c1473fcd6f8dc38ec4b0/c00lkidd%2520Executor"))()
+			loadstring(game:HttpGet("https://gist.githubusercontent.com/Angelo-Gitland/23f5d42e680644f651ff011d604ad1a4/raw/000e0a02cc25c5d23c597beb68944657aca14727/c00lkidd%2520executor"))()
 		end)
 		createButton("Grab Knife V4", 50, function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/retpirato/Roblox-Scripts/refs/heads/master/Grab%20Knife%20V4.lua"))()
